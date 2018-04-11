@@ -8,7 +8,7 @@ def load_library(library)
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}
   
   yam_hash.each do |name, emojis|
-   new_hash["get_meaning"][emojis[0]] = name
+   new_hash["get_meaning"][emojis[1]] = name
    # binding.pry
   end
 
