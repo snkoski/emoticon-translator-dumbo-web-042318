@@ -9,10 +9,10 @@ def load_library(library)
   
   yam_hash.each do |name, emojis|
    new_hash["get_meaning"][emojis[0]] = name
-    binding.pry
+   # binding.pry
   end
 
- # binding.pry
+  binding.pry
   new_hash
 end
 
